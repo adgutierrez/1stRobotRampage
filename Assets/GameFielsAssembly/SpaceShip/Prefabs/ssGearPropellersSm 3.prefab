@@ -1,0 +1,366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3797231118419510005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4034211113544561253}
+  - component: {fileID: 7997728755602292365}
+  - component: {fileID: 4718082587817932397}
+  - component: {fileID: 4079868937399607600}
+  m_Layer: 0
+  m_Name: ssGearPropellersSm 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4034211113544561253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3797231118419510005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.96888, y: 4.2, z: 0.0026}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8471737071380117703}
+  - {fileID: 8471737070684297413}
+  - {fileID: 8471737072342816569}
+  - {fileID: 8471737071896236980}
+  - {fileID: 8471737072638047040}
+  - {fileID: 6472361640027885962}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7997728755602292365
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3797231118419510005}
+  m_Mesh: {fileID: 4300000, guid: 81092ddca4acc6441a732148c7992ef7, type: 2}
+--- !u!23 &4718082587817932397
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3797231118419510005}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 589d7f1a65298d64fabcf64e9ac47503, type: 2}
+  - {fileID: 2100000, guid: f30a8eb864281d8409f05ebb98a17f56, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 2
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &4079868937399607600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3797231118419510005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d50f6edd5c1d24b927d17d934116f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xRotationsPerMinute: 0
+  yRotationsPerMinute: 1
+  zRotationsPerMinute: 0
+--- !u!1 &4128494327879403213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6472361640027885962}
+  - component: {fileID: 5842316178795851146}
+  m_Layer: 0
+  m_Name: ssGearPropeller3Collider6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6472361640027885962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4128494327879403213}
+  m_LocalRotation: {x: 0.019629896, y: -0.4996145, z: -0.03399998, w: 0.8653577}
+  m_LocalPosition: {x: -0.0054, y: -0.0018, z: -0.0988}
+  m_LocalScale: {x: 0.6968997, y: 0.6969007, z: 0.7753}
+  m_Children: []
+  m_Father: {fileID: 4034211113544561253}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: -60, z: -4.5}
+--- !u!65 &5842316178795851146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4128494327879403213}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2502, y: 0.0256, z: 1.43}
+  m_Center: {x: 0.125, y: 0.015, z: -0.662}
+--- !u!1 &8471737070684297410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8471737070684297413}
+  - component: {fileID: 8471737070684297412}
+  m_Layer: 0
+  m_Name: ssGearPropeller3Collider2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8471737070684297413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471737070684297410}
+  m_LocalRotation: {x: -0.019629896, y: 0.4996145, z: -0.03399998, w: 0.8653577}
+  m_LocalPosition: {x: -0.0765, y: -0.003, z: 0.0556}
+  m_LocalScale: {x: 0.6968997, y: 0.6969007, z: 0.7753}
+  m_Children: []
+  m_Father: {fileID: 4034211113544561253}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 60, z: -4.5}
+--- !u!65 &8471737070684297412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471737070684297410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2502, y: 0.0256, z: 1.43}
+  m_Center: {x: 0.125, y: 0.015, z: -0.662}
+--- !u!1 &8471737071380117700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8471737071380117703}
+  - component: {fileID: 8471737071380117702}
+  m_Layer: 0
+  m_Name: ssGearPropeller3Collider1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8471737071380117703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471737071380117700}
+  m_LocalRotation: {x: -0, y: -0, z: -0.03925978, w: 0.9992291}
+  m_LocalPosition: {x: -0.0901, y: -0.003, z: -0.039}
+  m_LocalScale: {x: 0.69690037, y: 0.69690037, z: 0.7753}
+  m_Children: []
+  m_Father: {fileID: 4034211113544561253}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.5}
+--- !u!65 &8471737071380117702
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471737071380117700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2502, y: 0.0256, z: 1.43}
+  m_Center: {x: 0.125, y: 0.015, z: -0.662}
+--- !u!1 &8471737071896236981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8471737071896236980}
+  - component: {fileID: 8471737071896236983}
+  m_Layer: 0
+  m_Name: ssGearPropeller3Collider4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8471737071896236980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471737071896236981}
+  m_LocalRotation: {x: -0, y: -0, z: 0.03925978, w: 0.9992291}
+  m_LocalPosition: {x: -0.08520004, y: -0.016100157, z: 1.0697}
+  m_LocalScale: {x: 0.69690037, y: 0.69690037, z: 0.7753}
+  m_Children: []
+  m_Father: {fileID: 4034211113544561253}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.5}
+--- !u!65 &8471737071896236983
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471737071896236981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2502, y: 0.0256, z: 1.43}
+  m_Center: {x: 0.125, y: 0.015, z: -0.662}
+--- !u!1 &8471737072342816550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8471737072342816569}
+  - component: {fileID: 8471737072342816568}
+  m_Layer: 0
+  m_Name: ssGearPropeller3Collider3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8471737072342816569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471737072342816550}
+  m_LocalRotation: {x: -0.019629896, y: -0.4996145, z: 0.03399998, w: 0.8653577}
+  m_LocalPosition: {x: -0.969, y: -0.0177, z: 0.462}
+  m_LocalScale: {x: 0.6968997, y: 0.6969007, z: 0.7753}
+  m_Children: []
+  m_Father: {fileID: 4034211113544561253}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -60, z: 4.5}
+--- !u!65 &8471737072342816568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471737072342816550}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2502, y: 0.0256, z: 1.43}
+  m_Center: {x: 0.125, y: 0.015, z: -0.662}
+--- !u!1 &8471737072638047041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8471737072638047040}
+  - component: {fileID: 8471737072638047043}
+  m_Layer: 0
+  m_Name: ssGearPropeller3Collider5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8471737072638047040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471737072638047041}
+  m_LocalRotation: {x: 0.019629896, y: 0.4996145, z: 0.03399998, w: 0.8653577}
+  m_LocalPosition: {x: 0.8841, y: -0.0175, z: 0.6089}
+  m_LocalScale: {x: 0.6968997, y: 0.6969007, z: 0.7753}
+  m_Children: []
+  m_Father: {fileID: 4034211113544561253}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 60, z: 4.5}
+--- !u!65 &8471737072638047043
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471737072638047041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2502, y: 0.0256, z: 1.43}
+  m_Center: {x: 0.125, y: 0.015, z: -0.662}
