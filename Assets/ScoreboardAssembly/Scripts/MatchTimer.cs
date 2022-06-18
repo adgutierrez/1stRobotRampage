@@ -37,8 +37,12 @@ public class MatchTimer : MonoBehaviour
             StopCoroutine("LoseTime");
             countdownText.text = "Match Over";
             GameOver();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            Application.Quit();
+            
+            SceneManager.LoadScene(0);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+            //Application.Quit();
+            Debug.Log("made it this far");
         }
     }
 

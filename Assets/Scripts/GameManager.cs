@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        QiutApplication();
+        
     }  
 
     public void LoadNextLevel()
@@ -34,10 +34,7 @@ public class GameManager : MonoBehaviour
 
     public void QiutApplication()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Debug.Log(" the Esc key was pressed");
-            Application.Quit();
-        }
+        Application.Quit();
+        
     }
 }
