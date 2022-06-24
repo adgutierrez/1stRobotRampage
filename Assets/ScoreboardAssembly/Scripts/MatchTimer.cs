@@ -38,7 +38,7 @@ public class MatchTimer : MonoBehaviour
             countdownText.text = "Match Over";
             GameOver();
             
-            SceneManager.LoadScene(0);
+            //SceneManager.LoadScene(0);
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
             //Application.Quit();
@@ -64,6 +64,6 @@ public class MatchTimer : MonoBehaviour
     {
         gameOverText.text = "Match Over!";
         gameOver = true;
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
