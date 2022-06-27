@@ -32,6 +32,12 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex);
     }
 
+    public void LoadGameLevelOne()
+    {
+        // int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(1);
+    }
+
     public void QiutApplication()
     {
         Application.Quit();
