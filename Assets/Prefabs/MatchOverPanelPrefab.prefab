@@ -2395,7 +2395,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7343691829189131848, guid: 285f0833d3d88cd40b7587ce1665b258, type: 3}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ReloadLevel
+        m_MethodName: LoadMemberLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

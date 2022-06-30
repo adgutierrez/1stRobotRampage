@@ -38,6 +38,12 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void LoadMemberLevel()
+    {
+        // int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(3);
+    }
+
     public void QiutApplication()
     {
         Application.Quit();
